@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div id="calc-container">
+
+      <div id="calc-form">
+        <input type="text" value="" id="calc-current-log">
+        <input type="text" name="display" value="" id="calc-display">
+        <div id="calc-logs">
+          <div  id="calc-logs2"></div>
+        </div>
+        <input type="button"  value="AC" class="btn-ac calc-button" id="ac">
+        <input type="button"  value="+/-" class="btn-plus-minus calc-button" id="plus-minus">
+        <input type="button"  value="%" class="btn-percent calc-button" id="percent">
+        <input type="button"  value="/" class="btn-divide calc-button operator">
+        <input type="button"  value="7" class="btn7 calc-button number">
+        <input type="button"  value="8" class="btn8 calc-button number">
+        <input type="button"  value="9" class="btn9 calc-button number">
+        <input type="button"  value="*" class="btn-times calc-button operator">
+        <input type="button"  value="4" class="btn4 calc-button number">
+        <input type="button"  value="5" class="btn5 calc-button number">
+        <input type="button"  value="6" class="btn6 calc-button number">
+        <input type="button"  value="-" class="btn-minus calc-button operator">
+        <input type="button"  value="1" class="btn1 calc-button number">
+        <input type="button"  value="2" class="btn2 calc-button number">
+        <input type="button"  value="3" class="btn3 calc-button number">
+        <input type="button"  value="+" class="btn-plus calc-button operator">
+        <input type="button"  value="0" class="btn0 calc-button number">
+        <input type="button"  value="." class="btn-dot calc-button" id ="dot">
+        <input type="button"  value="=" class="btn-equals calc-button" id="equals">
+      </div>
+    </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src="js/functions.js" charset="utf-8"></script>
+  <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>

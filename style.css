@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'SF Digital Readout';
+  src: url('fonts/SFDigitalReadout-Light.ttf') format('woff2');
+  font-weight: lighter;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #eaeaea;
+}
+input:focus {outline:0;}
+#calc-container{
+  width: 35%;
+  background-color:#010203;
+  margin: 0 auto;
+  padding: 1%;
+}
+#calc-display{
+  width: 94%;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 4% 2% 6% 2%;
+  font-size: 4.4rem;
+  font-family: 'SF Digital Readout';
+  text-align: right;
+  margin-left: 1%;
+  background-color: #0C0C0C;
+  border: none;
+}
+#calc-logs{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 80px;
+}
+#calc-logs2{
+  width: 98.6%;
+  padding: 1% 2%;
+  font-size: 0.9rem;
+  text-align: right;
+  margin:1% 0 1% 1%;
+  background-color: #0C0C0C;
+  border: none;
+  color:#FF4444;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right:-17px;
+  left:0px;
+  overflow: auto;
+  text-align: right;
+}
+#calc-logs2 p{
+  margin-right:10px;
+}
+#calc-current-log{
+  width: 94%;
+  color: #4D4D4D;
+  margin: 0 auto;
+  padding: 1% 2%;
+  font-size: 1rem;
+  text-align: right;
+  background-color: #0C0C0C;
+  border: none;
+  margin-left: 1%;
+}
+
+.calc-button{
+  width: 22.2%;
+  padding:4% 3%;
+  margin: 1%;
+  background-color: #0C0C0C;
+  color: #ffffff;
+  border: 1px solid #0D0E0F;
+  font-size: 1.5rem;
+}
+#equals{
+  width: 47%;
+  background-color: #FF2121;
+  border: 1px solid #FF4444;
+}
+#equals:active{
+  background-color: #FF4444;
+}
+.calc-button:active{
+  transform: translateY(1px);
+  background-color: #272A2E;
+  outline: none;
+}
+.calc-button:hover{
+  outline: none;
+}
